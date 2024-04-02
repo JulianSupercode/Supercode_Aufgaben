@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+span::after {
+  display: inline-block;
+  content: "*";
+  width: 10px;
+  height: 10px;
+  color: red;
+  line-height: 10px;
+}
+.eingabefeld {
+  display: flex;
+  flex-direction: column;
+}

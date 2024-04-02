@@ -3,32 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Forms Level 1_1</title>
   </head>
   <body>
     <form>
-      
+      <div>
+        <label for="text">Name</label><span></span>
         <div>
-          <label for="text">Name</label><br/>
           <input type="text" id="text" placeholder="Vorname" />
           <input type="text" id="text" placeholder="Nachname" />
         </div>
-        <div>
-          <label for="mail">Email</label>
-          <input type="mail" id="mail" placeholder="" />
-        </div>
-        <div>
-                    <label for="Thema">Thema</label>
-        <select name="Thema" id="Thema" >
-            <option value="">Advertise</option>
-            <option value="">Partnership</option>
-        </div>
-        <div>
-          <label for="nachricht">Nachricht</label>        
-            <textarea name="nachricht" id="nachricht" cols="30" rows="10"></textarea>
-            
-        </div>
-
+      </div>
+      <div>
+        <label for="mail">Email</label><span></span>
+        <input type="mail" id="mail" placeholder="" />
+      </div>
+      <div>
+        <label for="Thema">Thema</label>
+        <select name="Thema" id="Thema">
+          <option value="">Advertise</option>
+          <option value="">Partnership</option>
+        </select>
+      </div>
+      <div class="eingabefeld">
+        <div><label for="nachricht">Nachricht</label><span></span></div>
+        <textarea
+          name="nachricht"
+          id="nachricht"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <input class="btn-submit" type="submit" value="senden" />
     </form>
   </body>
 </html>
