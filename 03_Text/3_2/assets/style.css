@@ -1,0 +1,9 @@
+/* Import Schriften */
+@font-face {
+    font-family: "Chelsea Market";
+    src: url(./../../2_2/assets/fonts/ChelseaMarket-Regular.ttf);
+}
+=============================
+
+h1 {font-family:"Chelsea Market";}
+h2{background-color: green;letter-spacing: 10px;word-spacing: 10px;line: height 8;}

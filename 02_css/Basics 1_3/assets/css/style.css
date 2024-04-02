@@ -1,0 +1,4 @@
+a {display: block;}
+span {color: red;}
+p:nth-of-type(odd) {color: orange;}
+span:last-of-type {color: ;}

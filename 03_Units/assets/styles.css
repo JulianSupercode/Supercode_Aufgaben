@@ -1,0 +1,13 @@
+li {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+ul {
+  padding-inline-start: 1.2em;
+}
+ul li {
+  list-style: &#x1F415;
+}
+section {
+  border: 4px solid black;
+}

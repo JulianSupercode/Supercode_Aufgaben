@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.background-item {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: 2px green solid;
+  text-align: center;
+}
+
+.backgrounds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.backgrounds-yellow {background-color: rgb(221, 194, 75); background-position: center; background-size: contain;}
+
+.background-image {background image: url}
+
+.background-gradient {}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Eins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+#Zwei {
+  background-color: yellow;
+  background-position: center;
+}
+#Drei {
+  background-color: blue;
+  background-position: left;
+}
