@@ -14,4 +14,5 @@ span::after {
 .eingabefeld {
   display: flex;
   flex-direction: column;
+  width: 20em;
 }
