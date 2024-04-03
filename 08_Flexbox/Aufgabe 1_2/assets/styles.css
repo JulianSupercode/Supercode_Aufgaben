@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/Bildschirmfoto\ 2024-04-03\ um\ 14.42.39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 50px;
+  color: white;
+  background-color: blueviolet;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  margin-left: 90em;
+}
+
+li {
+  list-style: none;
+}
