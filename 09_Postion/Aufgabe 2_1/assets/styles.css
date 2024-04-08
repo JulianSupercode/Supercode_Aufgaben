@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+@font-face {
+  font-family: Playfair;
+  src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+body {
+  background-color: #edf0e2;
+}
+
+h1 {
+  font-family: Playfair;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-family: Poppins;
+  margin-bottom: 50px;
+}
+
+.frau {
+  position: relative;
+}
+.frau1 {
+  position: absolute;
+  top: 10vh;
+  left: 40vh;
+  width: 820px;
+}
+
+.content {
+  position: relative;
+}
+.content1 {
+  position: absolute;
+  top: 15vh;
+  left: 10vh;
+  text-align: left;
+  width: 480px;
+  height: 400px;
+}
+
+button {
+  height: 60px;
+  width: 250px;
+  background-color: orange;
+  border-color: orange;
+  border-radius: 10px;
+}

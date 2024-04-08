@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/andy-holmes-LUpDjlJv4_c-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.modal {
+  height: 10em;
+  width: 18em;
+  background-color: #f62b54;
+  border-radius: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: white;
+  padding-left: 1em;
+  padding-top: 1em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+img {
+  height: 2em;
+  width: 3em;
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
